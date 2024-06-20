@@ -1,4 +1,4 @@
-import streamlit as streamlit
+import streamlit as st
 def calculate_bmi(weight, height):
     bmi = weight / (height/100)**2
     return bmi
