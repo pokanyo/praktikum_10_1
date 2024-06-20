@@ -9,10 +9,6 @@ if st.button("Calculate"):
     bmi = calculate_bmi(weight, height)
     st.writer(f"Your BMI is: {bmi:.2f}")
 
-if st.button("Calculate"):
-    bmi = calculate_bmi(weight, height)
-    st.writer(f"Ypur BMI is: {bmi:.2f}")
-
 if bmi < 18.5:
     st.writer("Your are underweight.")
 elif 18.5 <= bmi < 24.9:
